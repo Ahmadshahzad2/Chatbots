@@ -2,6 +2,30 @@
 
 This repository contains several interactive chatbot applications that utilize OpenAI's GPT-3.5-turbo language model for natural language processing and conversational interactions. The chatbots are built using the LangChain library, which provides tools and utilities for creating conversational agents.
 
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Ahmadshahzad2/Chatbots.git
+cd Chatbots
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Run the Streamlit application:
+
+```bash
+streamlit run [application.py]
+```
+
 ## Blog.py
 
 The application creates an interactive chatbot interface with Streamlit. Users can input a URL of a blog or any webpage, and the application will extract the text content from that URL.
